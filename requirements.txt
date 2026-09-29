@@ -1,0 +1,33 @@
+# Data processing
+pandas==2.2.3
+numpy==1.26.4
+
+# Database
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10
+
+# Environment
+python-dotenv==1.0.1
+
+# Jupyter
+jupyter==1.1.1
+notebook==7.3.1
+
+# ML
+scikit-learn==1.5.2
+xgboost==2.1.3
+
+# numba/llvmlite pins for Intel macOS (x86_64) + Python 3.11
+# Newer versions dropped pre-built wheels for this platform
+numba==0.61.2
+llvmlite==0.44.0
+
+shap==0.46.0
+joblib==1.4.2
+
+# Kaggle
+kagglehub==0.3.4
+
+# Testing & linting
+pytest==8.3.4
+ruff==0.8.4
